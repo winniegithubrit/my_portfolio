@@ -1,0 +1,86 @@
+/* NavBar.css */
+@import './tailwind.css';
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: lightgray;
+}
+
+/* Footer.css */
+
+.Footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Footer a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.Footer a:hover {
+  color: lightgray;
+}
+
+.social {
+  display: inline-block;
+  font-size: 24px;
+}
+
+.twitter {
+  color: #1da1f2;
+}
+
+.instagram{
+  color: #e4405f;
+}
+
+.github{
+  color: #333;
+}
+
+.snapchat {
+  color: #fffc00;
+}
+
+.tiktok{
+  color: #69c9d0;
+}
